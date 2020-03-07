@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+header .nube {
+  opacity: 0.2;
+  transform: rotate(90deg);
+  position: fixed;
+  margin-left: -250px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.menu .fab {
+  font-size: 1.3em;
+}
+
+.menu ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li:nth-child(1) {
+  margin-left: -15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 5px 10px 5px;
+}
+
+.menu ul a:hover {
+  background: #4fa846;
+  transition: all 0.8s ease-out;
+  border-radius: 10px;
+  color: #000;
+}
+
+form input {
+  width: 200px;
+  padding: 15px;
+  border-radius: 50px;
+  height: 35px;
+  background: none;
+  color: #fff;
+}
+
+form .btn {
+  width: 150px;
+  text-transform: uppercase;
+  background: none;
+  height: 35px;
+  margin-top: -5px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 98px;
+  height: 100vh;
+}
+.container-info h1 {
+  font-size: 5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* background-image: url("/img/era-digital-890x500_c.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+}
+.container-info h3 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+.container-info p {
+  font-size: 1.3em;
+  opacity: 0.4;
+}
+
+.container-info .btn {
+  width: 200px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  background: none;
+  padding: 10px;
+}
+
+.container-img img {
+  margin: 100px -100px;
+  width: 1000px;
+  height: 600px;
+}
