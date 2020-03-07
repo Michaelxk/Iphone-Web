@@ -88,34 +88,3 @@ form .btn {
   height: 100vh;
 }
 .container-info h1 {
-  font-size: 5em;
-  font-weight: bold;
-  text-transform: uppercase;
-  /* background-image: url("/img/era-digital-890x500_c.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; */
-}
-.container-info h3 {
-  font-size: 2em;
-  margin-bottom: 40px;
-}
-.container-info p {
-  font-size: 1.3em;
-  opacity: 0.4;
-}
-
-.container-info .btn {
-  width: 200px;
-  text-transform: uppercase;
-  border-radius: 50px;
-  background: none;
-  padding: 10px;
-}
-
-.container-img img {
-  margin: 100px -100px;
-  width: 1000px;
-  height: 600px;
-}
